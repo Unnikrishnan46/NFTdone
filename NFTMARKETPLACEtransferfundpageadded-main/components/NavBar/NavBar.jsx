@@ -26,7 +26,7 @@ const NavBar = () => {
   const [openSideMenu, setOpenSideMenu] = useState(false);
 
   const router = useRouter();
-
+  console.log(openSideMenu)
   const openMenu = (e) => {
     const btnText = e.target.innerText;
     if (btnText == "Discover") {
