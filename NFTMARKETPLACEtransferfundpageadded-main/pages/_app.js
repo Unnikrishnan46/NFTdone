@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //INTRNAL IMPORT
 import { NavBar, Footer } from "../components/componentsindex";
 import { NFTMarketplaceProvider } from "../Context/NFTMarketplaceContext";
